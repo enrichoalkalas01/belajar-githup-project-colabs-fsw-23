@@ -7,6 +7,7 @@ const cors = require("cors");
 const port = process.env.PORT || 7777;
 
 // perlu ditambahkan setup file config.env
+dotenv.config({ path: __dirname + '/config/config.env' })
 
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
