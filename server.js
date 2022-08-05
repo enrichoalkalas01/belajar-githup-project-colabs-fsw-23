@@ -18,5 +18,6 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 console.log("Hallo semua");
+console.log('wokeh')
 
 app.listen(port, () => console.log(`server is running in port : ${port}`));
